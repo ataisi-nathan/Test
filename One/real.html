@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="real.css">
+    <title>SkillShop</title>
+</head>
+<body>
+    <div class="loading">
+        <h2>Real World Application</h2>
+        <div class="bar">
+            <div class="load"></div>
+        </div>
+    </div>
+    <header>
+        <h1>Skill<span>Shop</span></h1>
+        <nav>
+            <ul>
+                <li>Flash Sales</li>
+                <li>Category</li>
+                <li>Hot Deals</li>
+                <li>Cart<span id="cart"></span></li>
+                <li>Login/Register</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <ul>
+                <li>Supermarket</li>
+                <li>Health & Beauty</li>
+                <li>Home & Office</li>
+                <li>Phones & Tablets</li>
+                <li>Computing</li>
+                <li>Electronics</li>
+                <li>Fashion</li>
+                <li>Baby Products</li>
+                <li>Gaming</li>
+                <li>Sporting Goods</li>
+                <li>Automobile</li>
+                <li>Other Categories</li>
+            </ul>
+        </aside>
+        <div class="product">
+            <div class="card">
+                <img src="Assets/—Pngtree—sports shoes casual shoes running_9062742.png" alt="An image of a shoe">
+                <div class="detail">
+                    <div class="top">
+                        <h3>Running Shoe</h3>
+                        <div>$<span id="price">29.99</span></div>
+                    </div>
+                    <div class="counter">
+                        <div class="span" onclick="Sub()">-</div>
+                        <div id="value">1</div>
+                        <div class="span" onclick="Add()">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desc">
+            <h3>Description</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat sunt odit! Architecto, corporis impedit recusandae quis dolorem facere odio sed quae quaerat at pariatur cupiditate fugit!</p>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
